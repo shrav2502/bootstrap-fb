@@ -1,0 +1,41 @@
+#facebook {
+  background-color: #3b5998;
+  height: 110px;
+}
+#colors {
+  color: white;
+}
+
+#form {
+  margin-right: 200px;
+}
+#login {
+  margin-right: -170px;
+  margin-top: 34px;
+  background-color: #4d73c4;
+  color: white;
+  border: 0.5px solid #444444;
+  height: 35px;
+}
+.details {
+  background-color: white;
+}
+
+#select {
+  width: 90px;
+}
+.account {
+  float: right;
+  margin-top: 20px;
+}
+#sign-up {
+  width: 180px;
+}
+.picture {
+  float: left;
+  margin-top: 40px;
+}
+body {
+  /* background-color: #e9edf3; */
+  background-image: linear-gradient(#fefefe, #fefefe, #e9edf3, #e9edf3);
+}

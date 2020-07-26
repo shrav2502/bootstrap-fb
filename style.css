@@ -1,0 +1,391 @@
+body {
+  background-color: #f2f3f5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  /* color: white; */
+}
+
+#navbarDropdownMenuLink {
+  background-color: #eee;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+}
+.container {
+  width: 100%;
+}
+#plus {
+  color: black;
+  /* margin-top: -25px; */
+  /* margin-left: 520px; */
+}
+#bell {
+  color: black;
+  float: right;
+}
+.form-inline {
+  margin-left: -450px;
+  position: absolute;
+  margin-top: -17px;
+}
+#buttons {
+  background-color: #f2f3f5;
+  color: black;
+  padding: 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+}
+#buttons1 {
+  background-color: #f2f3f5;
+  color: #878787;
+  padding: 20px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  width: 200px;
+  margin-left: 50px;
+}
+
+#buttons:hover {
+  background-color: #dee0e0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 300px 500px 300px;
+  grid-gap: 160px;
+}
+#Search-Bar {
+  width: 100%;
+}
+
+#photos {
+  position: relative;
+  box-shadow: 1px 1px 1px 1px #dedede;
+  border-radius: 8px;
+  width: 37.5rem;
+  height: 550px;
+}
+#Sidebar {
+  margin-left: 20px;
+}
+.scrl {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 90px;
+  overflow: auto;
+  height: 550px;
+}
+#input-field {
+  margin-left: -730px;
+  border-radius: 20px;
+  margin-top: 20px;
+  position: fixed;
+}
+#navbar {
+  margin-left: -15px;
+  position: fixed;
+  top: 0;
+  /* overflow: hidden; */
+  background-color: white;
+  width: 100%;
+  box-shadow: 7px 5px 5px -3px rgba(192, 190, 190, 0.4),
+    0px 5px 10px rgba(192, 192, 192, 0.6),
+    -7px 5px 5px -3px rgba(192, 191, 191, 0.4);
+}
+#birthdays {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 60px;
+  overflow-x: hidden;
+  width: 450px;
+  margin-left: 1180px;
+  height: 650px;
+  border: none;
+  background-color: #f2f3f5;
+}
+#contacts {
+  width: 10%;
+  z-index: 2;
+}
+.options {
+  margin-top: -35px;
+  display: grid;
+  grid-template-columns: 150px 50px 50px 50px;
+}
+.contacts1 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#menu {
+  background-color: #f2f3f5;
+  color: black;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 0px;
+  border: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: right;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#drp-menu {
+  width: 300px;
+  margin-right: 100px;
+}
+.card-head {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  grid-gap: 200px;
+  position: relative;
+}
+.card-text {
+  line-height: 0px;
+}
+#drp-left {
+  background-color: white;
+  color: black;
+  margin-top: -15px;
+  border: none;
+  height: 40px;
+}
+#thumbnail {
+  margin-top: -200px;
+  width: 550px;
+}
+#comments {
+  margin-top: -150px;
+}
+.likes {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  margin-top: -120px;
+  grid-gap: 80px;
+  position: relative;
+  margin-left: -500px;
+}
+#cmnt-sec {
+  margin-top: -480px;
+  width: 530px;
+  margin-left: 450px;
+  border-radius: 5px;
+}
+#style {
+  text-align: center;
+  height: 40px;
+  border: none;
+}
+.ppl-likes {
+  margin-top: -180px;
+  width: 400px;
+}
+#card {
+  box-shadow: 0.7px 0.7px 0.7px 0.7px #dedede;
+  border-radius: 6px;
+  margin-top: 5px;
+  width: 600px;
+}
+.scroll {
+  overflow: scroll;
+  height: 450px;
+}
+#border {
+  border: none;
+  padding: 0;
+}
+.feed {
+  margin-top: 100px;
+  margin-left: 450px;
+}
+#collapse {
+  background-color: #e3e3e3;
+  width: 280px;
+  border-radius: 5px;
+  color: black;
+}
+#dropdown {
+  margin-left: -120px;
+  box-shadow: 7px 5px 5px -3px rgba(145, 145, 145, 0.4),
+    0px 5px 10px rgba(92, 92, 92, 0.6),
+    -7px 5px 5px -3px rgba(145, 145, 145, 0.4);
+  border-radius: 5px;
+}
+/* .contact-option {
+  margin-left: 30px;
+} */
+.open-button {
+  background-color: white;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 8px;
+  right: 28px;
+  width: 280px;
+  z-index: 10;
+  /* border: 1px solid; */
+  box-shadow: 7px 5px 5px -3px rgba(145, 145, 145, 0.4),
+    0px 5px 10px rgba(92, 92, 92, 0.6),
+    -7px 5px 5px -3px rgba(145, 145, 145, 0.4);
+  border-radius: 5px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 100;
+  /* margin-top: -50px; */
+  /* margin-bottom: -100px; */
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+#cancel {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: black;
+  margin-left: 130px;
+}
+#cancel:hover {
+  background-color: grey;
+}
+.name {
+  height: 30px;
+  width: 150px;
+  border: 1px solid;
+  top: 0;
+}
+@media screen and (max-width: 600px) {
+  .scrl {
+    display: none;
+  }
+  #card {
+    margin-left: -430px;
+    width: 530px;
+  }
+  #photos {
+    margin-left: -430px;
+    width: 530px;
+  }
+}

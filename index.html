@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="login.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light" id="facebook">
+      <a
+        class="navbar-brand"
+        href="#"
+        style="
+          color: white;
+          font-weight: 700;
+          font-size: 40px;
+          margin-left: 260px;
+          margin-top: -30px;
+        "
+        >facebook</a
+      >
+      <form id="form" action="feed.html" method="GET">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="input" id="colors">Username</label>
+            <input type="text" class="form-control" id="input" required/>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword" id="colors">Password</label>
+            <input type="password" class="form-control" id="inputPassword" required/>
+            <a href="#"><p style="color: #e3e3e3;">Forgotten account?</p></a>
+          </div>
+          <button type="button" class="btn btn-light" id="login">Login</button>
+        </div>
+      </form>
+    </nav>
+    <div class="container">
+      <div class="picture"><img src="Capture.PNG"></img></div>
+      <div class="account">
+        <h1 style="font-weight: 640;">Create an account</h1>
+        <p style="font-size: 20px;">It's quick and easy.</p>
+        <form>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail3"
+                placeholder="Username"
+                style="width: 400px;"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword2"
+                placeholder="Mobile number or email address"
+                style="width: 400px;"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword3"
+                placeholder="Password"
+                style="width: 400px;"
+                required
+              />
+            </div>
+          </div>
+        </form>
+        <h5>Birthday</h5>
+        <select class="custom-select" id="select">
+          <option selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="3">4</option>
+          <option value="3">5</option>
+          <option value="3">6</option>
+          <option value="3">7</option>
+          <option value="3">8</option>
+          <option value="3">9</option>
+          <option value="3">10</option>
+          <option value="3">11</option>
+          <option value="3">12</option>
+          <option value="3">13</option>
+          <option value="3">14</option>
+          <option value="3">15</option>
+          <option value="3">16</option>
+          <option value="3">17</option>
+          <option value="3">18</option>
+          <option value="3">19</option>
+          <option value="3">20</option>
+          <option value="3">21</option>
+          <option value="3">22</option>
+          <option value="3">23</option>
+          <option value="3">24</option>
+          <option value="3">25</option>
+          <option value="3">26</option>
+          <option value="3">27</option>
+          <option value="3">28</option>
+          <option value="3">29</option>
+          <option value="3">30</option>
+          <option value="3">31</option>
+        </select>
+        <select class="custom-select" id="select">
+          <option selected>Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+          <option value="3">Apr</option>
+          <option value="3">May</option>
+          <option value="3">Jun</option>
+          <option value="3">Jul</option>
+          <option value="3">Aug</option>
+          <option value="3">Sep</option>
+          <option value="3">Oct</option>
+          <option value="3">Nov</option>
+          <option value="3">Dec</option>
+        </select>
+        <select class="custom-select" id="select">
+          <option selected>1986</option>
+          <option value="3">1987</option>
+          <option value="3">1989</option>
+          <option value="3">1990</option>
+          <option value="3">1991</option>
+          <option value="3">1992</option>
+          <option value="3">1993</option>
+          <option value="3">1994</option>
+          <option value="3">1995</option>
+          <option value="3">1996</option>
+          <option value="3">1997</option>
+          <option value="3">1998</option>
+          <option value="2">1999</option>
+          <option value="3">2000</option>
+          <option value="3">2001</option>
+          <option value="3">2002</option>
+          <option value="3">2003</option>
+          <option value="3">2004</option>
+          <option value="3">2005</option>
+          <option value="3">2006</option>
+          <option value="3">2007</option>
+          <option value="3">2009</option>
+          <option value="3">2010</option>
+          <option value="3">2011</option>
+          <option value="3">2012</option>
+          <option value="3">2013</option>
+          <option value="3">2014</option>
+          <option value="3">2015</option>
+          <option value="3">2016</option>
+          <option value="3">2017</option>
+        </select>
+        <br /><br />
+        <h5>Gender</h5>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input
+            type="radio"
+            id="customRadioInline1"
+            name="customRadioInline1"
+            class="custom-control-input"
+          />
+          <label class="custom-control-label" for="customRadioInline1"
+            style="font-size: 18px;">Male</label
+          >
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input
+            type="radio"
+            id="customRadioInline2"
+            name="customRadioInline1"
+            class="custom-control-input"
+          />
+          <label class="custom-control-label" for="customRadioInline2"
+          style="font-size: 18px;">Female</label
+          >
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input
+            type="radio"
+            id="customRadioInline3"
+            name="customRadioInline1"
+            class="custom-control-input"
+          />
+          <label class="custom-control-label" for="customRadioInline3"
+          style="font-size: 18px;">Other</label
+          >
+        </div>
+        <br /><br />
+        <p style="font-size: 10px;">
+          By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
+          Policy.<br />
+          You may receive SMS notifications from us and can opt out at any time.
+        </p>
+        <button type="button" class="btn btn-success" id="sign-up">Sign Up</button>
+        <br><br>
+        <p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="design.js"></script>
+    </body>
+</html>
